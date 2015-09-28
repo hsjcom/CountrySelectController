@@ -16,12 +16,35 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    UIButton *btn = [UIButton buttonWithType:UIButtonTypeRoundedRect];
+    btn.frame = CGRectMake(self.view.frame.size.width * 0.5 - 75, 150, 150, 50);
+    [btn setTitle:@"Show Country" forState:UIControlStateNormal];
+    [btn addTarget:self action:@selector(showCountryView) forControlEvents:UIControlEventTouchUpInside];
+    [btn setTitleColor:[UIColor whiteColor] forState:UIControlStateNormal];
+    [btn setBackgroundColor:[UIColor orangeColor]];
+    [self.view addSubview:btn];
+    
+    _areaCodeLab = [[UILabel alloc] initWithFrame:CGRectMake(10, 250, self.view.frame.size.width - 20, 50)];
+    _areaCodeLab.textAlignment = NSTextAlignmentCenter;
+    _areaCodeLab.textColor = [UIColor whiteColor];
+    _areaCodeLab.backgroundColor = [UIColor orangeColor];
+    [self.view addSubview:_areaCodeLab];
 }
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+- (void)showCountryView {
+    CountryChooseController *countryView = [[CountryChooseController alloc] init];
+    countryView.delegate = self;
+    
+    [self presentViewController:countryView animated:YES completion:^{
+        
+    }];
+}
+
+#pragma mark - SecondViewController Delegate
+
+- (void)setSecondData:(CountryAndAreaCode *)data {
+    self.areaCodeLab.text = [NSString stringWithFormat:@"%@  +%@", data.countryName, data.areaCode ];
 }
 
 @end

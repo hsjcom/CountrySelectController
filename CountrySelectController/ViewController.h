@@ -7,8 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "CountryChooseController.h"
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController<CountryChooseControllerDelegate>
+
+@property (nonatomic, strong) UILabel *areaCodeLab;
 
 
 @end
