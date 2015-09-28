@@ -14,10 +14,11 @@
 		FBE3E7871BB9853D00C643CF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBE3E7861BB9853D00C643CF /* Images.xcassets */; };
 		FBE3E78A1BB9853D00C643CF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FBE3E7881BB9853D00C643CF /* LaunchScreen.xib */; };
 		FBE3E7961BB9853D00C643CF /* CountrySelectControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE3E7951BB9853D00C643CF /* CountrySelectControllerTests.m */; };
-		FBE3E7BE1BB98BB700C643CF /* country.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBE3E7B71BB98BB700C643CF /* country.plist */; };
-		FBE3E7BF1BB98BB700C643CF /* CountryAndAreaCode.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE3E7B91BB98BB700C643CF /* CountryAndAreaCode.m */; };
-		FBE3E7C01BB98BB700C643CF /* CountryChooseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE3E7BB1BB98BB700C643CF /* CountryChooseController.m */; };
-		FBE3E7C11BB98BB700C643CF /* NSDictionary-DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE3E7BD1BB98BB700C643CF /* NSDictionary-DeepMutableCopy.m */; };
+		FBE3E7F01BB9A0B200C643CF /* country_en.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBE3E7E81BB9A0B200C643CF /* country_en.plist */; };
+		FBE3E7F11BB9A0B200C643CF /* country_zh.plist in Resources */ = {isa = PBXBuildFile; fileRef = FBE3E7E91BB9A0B200C643CF /* country_zh.plist */; };
+		FBE3E7F21BB9A0B200C643CF /* CountryAndAreaCode.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE3E7EB1BB9A0B200C643CF /* CountryAndAreaCode.m */; };
+		FBE3E7F31BB9A0B200C643CF /* CountryChooseController.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE3E7ED1BB9A0B200C643CF /* CountryChooseController.m */; };
+		FBE3E7F41BB9A0B200C643CF /* NSDictionary-DeepMutableCopy.m in Sources */ = {isa = PBXBuildFile; fileRef = FBE3E7EF1BB9A0B200C643CF /* NSDictionary-DeepMutableCopy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,13 +45,14 @@
 		FBE3E78F1BB9853D00C643CF /* CountrySelectControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountrySelectControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FBE3E7941BB9853D00C643CF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FBE3E7951BB9853D00C643CF /* CountrySelectControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CountrySelectControllerTests.m; sourceTree = "<group>"; };
-		FBE3E7B71BB98BB700C643CF /* country.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = country.plist; sourceTree = "<group>"; };
-		FBE3E7B81BB98BB700C643CF /* CountryAndAreaCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryAndAreaCode.h; sourceTree = "<group>"; };
-		FBE3E7B91BB98BB700C643CF /* CountryAndAreaCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryAndAreaCode.m; sourceTree = "<group>"; };
-		FBE3E7BA1BB98BB700C643CF /* CountryChooseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryChooseController.h; sourceTree = "<group>"; };
-		FBE3E7BB1BB98BB700C643CF /* CountryChooseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryChooseController.m; sourceTree = "<group>"; };
-		FBE3E7BC1BB98BB700C643CF /* NSDictionary-DeepMutableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary-DeepMutableCopy.h"; sourceTree = "<group>"; };
-		FBE3E7BD1BB98BB700C643CF /* NSDictionary-DeepMutableCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary-DeepMutableCopy.m"; sourceTree = "<group>"; };
+		FBE3E7E81BB9A0B200C643CF /* country_en.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = country_en.plist; sourceTree = "<group>"; };
+		FBE3E7E91BB9A0B200C643CF /* country_zh.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = country_zh.plist; sourceTree = "<group>"; };
+		FBE3E7EA1BB9A0B200C643CF /* CountryAndAreaCode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryAndAreaCode.h; sourceTree = "<group>"; };
+		FBE3E7EB1BB9A0B200C643CF /* CountryAndAreaCode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryAndAreaCode.m; sourceTree = "<group>"; };
+		FBE3E7EC1BB9A0B200C643CF /* CountryChooseController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CountryChooseController.h; sourceTree = "<group>"; };
+		FBE3E7ED1BB9A0B200C643CF /* CountryChooseController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CountryChooseController.m; sourceTree = "<group>"; };
+		FBE3E7EE1BB9A0B200C643CF /* NSDictionary-DeepMutableCopy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDictionary-DeepMutableCopy.h"; sourceTree = "<group>"; };
+		FBE3E7EF1BB9A0B200C643CF /* NSDictionary-DeepMutableCopy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDictionary-DeepMutableCopy.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -92,7 +94,7 @@
 		FBE3E7781BB9853D00C643CF /* CountrySelectController */ = {
 			isa = PBXGroup;
 			children = (
-				FBE3E7B61BB98BB700C643CF /* CountryChoose */,
+				FBE3E7E71BB9A0B200C643CF /* CountryChoose */,
 				FBE3E77D1BB9853D00C643CF /* AppDelegate.h */,
 				FBE3E77E1BB9853D00C643CF /* AppDelegate.m */,
 				FBE3E7801BB9853D00C643CF /* ViewController.h */,
@@ -131,16 +133,17 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FBE3E7B61BB98BB700C643CF /* CountryChoose */ = {
+		FBE3E7E71BB9A0B200C643CF /* CountryChoose */ = {
 			isa = PBXGroup;
 			children = (
-				FBE3E7B71BB98BB700C643CF /* country.plist */,
-				FBE3E7B81BB98BB700C643CF /* CountryAndAreaCode.h */,
-				FBE3E7B91BB98BB700C643CF /* CountryAndAreaCode.m */,
-				FBE3E7BA1BB98BB700C643CF /* CountryChooseController.h */,
-				FBE3E7BB1BB98BB700C643CF /* CountryChooseController.m */,
-				FBE3E7BC1BB98BB700C643CF /* NSDictionary-DeepMutableCopy.h */,
-				FBE3E7BD1BB98BB700C643CF /* NSDictionary-DeepMutableCopy.m */,
+				FBE3E7E81BB9A0B200C643CF /* country_en.plist */,
+				FBE3E7E91BB9A0B200C643CF /* country_zh.plist */,
+				FBE3E7EA1BB9A0B200C643CF /* CountryAndAreaCode.h */,
+				FBE3E7EB1BB9A0B200C643CF /* CountryAndAreaCode.m */,
+				FBE3E7EC1BB9A0B200C643CF /* CountryChooseController.h */,
+				FBE3E7ED1BB9A0B200C643CF /* CountryChooseController.m */,
+				FBE3E7EE1BB9A0B200C643CF /* NSDictionary-DeepMutableCopy.h */,
+				FBE3E7EF1BB9A0B200C643CF /* NSDictionary-DeepMutableCopy.m */,
 			);
 			path = CountryChoose;
 			sourceTree = "<group>";
@@ -225,10 +228,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FBE3E7F01BB9A0B200C643CF /* country_en.plist in Resources */,
 				FBE3E7851BB9853D00C643CF /* Main.storyboard in Resources */,
+				FBE3E7F11BB9A0B200C643CF /* country_zh.plist in Resources */,
 				FBE3E78A1BB9853D00C643CF /* LaunchScreen.xib in Resources */,
 				FBE3E7871BB9853D00C643CF /* Images.xcassets in Resources */,
-				FBE3E7BE1BB98BB700C643CF /* country.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -246,11 +250,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FBE3E7C11BB98BB700C643CF /* NSDictionary-DeepMutableCopy.m in Sources */,
-				FBE3E7C01BB98BB700C643CF /* CountryChooseController.m in Sources */,
+				FBE3E7F41BB9A0B200C643CF /* NSDictionary-DeepMutableCopy.m in Sources */,
+				FBE3E7F31BB9A0B200C643CF /* CountryChooseController.m in Sources */,
 				FBE3E7821BB9853D00C643CF /* ViewController.m in Sources */,
 				FBE3E77F1BB9853D00C643CF /* AppDelegate.m in Sources */,
-				FBE3E7BF1BB98BB700C643CF /* CountryAndAreaCode.m in Sources */,
+				FBE3E7F21BB9A0B200C643CF /* CountryAndAreaCode.m in Sources */,
 				FBE3E77C1BB9853D00C643CF /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -448,6 +452,7 @@
 				FBE3E79B1BB9853D00C643CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FBE3E79C1BB9853D00C643CF /* Build configuration list for PBXNativeTarget "CountrySelectControllerTests" */ = {
 			isa = XCConfigurationList;
@@ -456,6 +461,7 @@
 				FBE3E79E1BB9853D00C643CF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

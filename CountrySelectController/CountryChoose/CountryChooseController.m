@@ -18,23 +18,21 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = NSLocalizedString(@"countryChoose", nil);
     
     self.view.backgroundColor = [UIColor whiteColor];
     
-    CGFloat navigationBarHeight = 0; //64;
+    CGFloat navigationBarHeight = 64;
     
-//    UINavigationBar *navigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, navigationBarHeight)];
-//    navigationBar.backgroundColor = COLOR_NAVBAR_BG;
-//    UINavigationItem *navigationItem = [[UINavigationItem alloc] initWithTitle:nil];
-//    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithTitle:@"Back"
-//                                                                   style:UIBarButtonItemStylePlain
-//                                                                  target:self
-//                                                                  action:@selector(clickLeftButton)];
-//    [navigationItem setTitle:@"Country Choose"];
-//    [navigationBar pushNavigationItem:navigationItem animated:NO];
-//    [navigationItem setLeftBarButtonItem:leftButton];
-//    [self.view addSubview:navigationBar];
+    UINavigationBar *navigationBar = [[UINavigationBar alloc] initWithFrame:CGRectMake(0, 0, self.view.frame.size.width, navigationBarHeight)];
+    UINavigationItem *navigationItem = [[UINavigationItem alloc] initWithTitle:nil];
+    UIBarButtonItem *leftButton = [[UIBarButtonItem alloc] initWithTitle:@"Back"
+                                                                   style:UIBarButtonItemStylePlain
+                                                                  target:self
+                                                                  action:@selector(clickLeftButton)];
+    [navigationItem setTitle:@"Country Choose"];
+    [navigationBar pushNavigationItem:navigationItem animated:NO];
+    [navigationItem setLeftBarButtonItem:leftButton];
+    [self.view addSubview:navigationBar];
     
     _search = [[UISearchBar alloc] init];
     _search.delegate = self;
@@ -47,7 +45,7 @@
     _table.delegate = self;
     [self.view addSubview:_table];
     
-    NSString *path = [[NSBundle mainBundle] pathForResource:NSLocalizedString(@"countryPlist", nil) ofType:@"plist"];
+    NSString *path = [[NSBundle mainBundle] pathForResource:@"country_en" ofType:@"plist"];
     NSDictionary *dict = [[NSDictionary alloc] initWithContentsOfFile:path];
     self.allNames = dict;
     
@@ -184,7 +182,7 @@
     country.countryName = countryName;
     country.areaCode = areaCode;
     
-//    NSLog(@"%@ %@", countryName, areaCode);
+    NSLog(@"%@ %@", countryName, areaCode);
     
     [self.view endEditing:YES];
     
@@ -193,7 +191,7 @@
     }
     
     //关闭当前
-    [self backView];
+    [self clickLeftButton];
 }
 
 #pragma mark - UISearchBarDelegate
@@ -230,9 +228,9 @@
     [searchBar resignFirstResponder];
 }
 
-//- (void)clickLeftButton {
-//    [self dismissViewControllerAnimated:YES completion:^{
-//    }];
-//}
+- (void)clickLeftButton {
+    [self dismissViewControllerAnimated:YES completion:^{
+    }];
+}
 
 @end

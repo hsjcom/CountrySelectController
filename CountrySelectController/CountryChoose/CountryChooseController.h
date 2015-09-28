@@ -12,7 +12,7 @@
 
 @protocol CountryChooseControllerDelegate;
 
-@interface CountryChooseController : SJViewController <UITableViewDataSource, UITableViewDelegate,UISearchBarDelegate> {
+@interface CountryChooseController : UIViewController <UITableViewDataSource, UITableViewDelegate,UISearchBarDelegate> {
     BOOL _isSearching;
 }
 
