@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "A3E59BAF594414E8A897091595A13C46942800B4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "A3E59BAF594414E8A897091595A13C46942800B4" : 0,
+    "097A2E6BC16BA4F6CD4DA74031EFC54350DB55E3" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "3EFD67F3-F114-446C-B449-1C9A10EF143D",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "A3E59BAF594414E8A897091595A13C46942800B4" : "CountrySelectController",
+    "097A2E6BC16BA4F6CD4DA74031EFC54350DB55E3" : "BitBucket\/LifeStore"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "CountrySelectController",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "CountrySelectController.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/bitbucket.org\/hsjcom\/lifestore.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "097A2E6BC16BA4F6CD4DA74031EFC54350DB55E3"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/hsjcom\/CountrySelectController.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "A3E59BAF594414E8A897091595A13C46942800B4"
+    }
+  ]
+}
